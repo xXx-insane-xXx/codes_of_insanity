@@ -1,9 +1,16 @@
-text = io.read("*l")
-print("Original text: " ..text)
-len = #text
-i = len
-tmp = ""
-new_text = ""
+--[[
+
+    Reverse string program with only using string.sub() library function
+
+]]--
+
+
+local text = io.read("*l")
+local print("Original text: " ..text)
+local len = #text
+local i = len
+local tmp = ""
+local new_text = ""
 
 -- Method 1
 while (true) do
